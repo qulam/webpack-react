@@ -1,0 +1,16 @@
+.home-page {
+  display: flex;
+  height: 100vh;
+  background: blueviolet;
+  align-items: center;
+  justify-content: center;
+
+  .app-page {
+    padding: 30px 60px;
+    background: #fff;
+
+    &__header {
+      color: #2c409d;
+    }
+  }
+}
